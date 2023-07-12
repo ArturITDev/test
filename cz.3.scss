@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: 'Comic Neue', cursive;
+	background: radial-gradient(circle, rgba(43, 44, 46, 1) 13%, rgba(25, 25, 25, 1) 65%);
+}
+.cards {
+	display: flex;
+	width: 1000px;
+}
+.card {
+	margin: 10px;
+	height: 800px;
+	text-align: center;
+	background-position: center;
+	background-size: cover;
+	border-radius: 15px;
+}
+.one {
+	background-image: url('../cz.3/img/women-big.jpg');
+}
+.two {
+	background-image: url('../cz.3/img/men-small.jpg');
+}
